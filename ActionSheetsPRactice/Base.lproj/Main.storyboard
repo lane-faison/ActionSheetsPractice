@@ -40,6 +40,10 @@
                             <constraint firstAttribute="trailing" secondItem="hrO-jI-KGr" secondAttribute="trailing" id="wgs-ox-C7n"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dayImageView" destination="hrO-jI-KGr" id="6Ug-89-Q1g"/>
+                        <outlet property="nightImageView" destination="9oX-w3-8H9" id="YKm-0g-1Zw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
